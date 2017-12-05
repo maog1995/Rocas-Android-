@@ -8,6 +8,10 @@
     android:orientation="vertical"
     tools:context="xyz.maog.rocas.MainActivity">
 
+    <include
+        android:id="@+id/TB1"
+        layout="@layout/toolbar" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
